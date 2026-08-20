@@ -1,69 +1,42 @@
 import Image from "next/image";
+import Link from "next/link";
+import { CatalogGrid } from "@/components/catalog/CatalogGrid";
+import { ProcessSteps } from "@/components/site/ProcessSteps";
+import { RequestSection } from "@/components/site/RequestSection";
+import { HeroImageSlider } from "@/components/site/HeroImageSlider";
+import { contentRepository } from "@/content/repository";
 
-export default function Home() {
-  return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
-  );
+const services = [
+  ["Разработка проектов", "Разработка проектов для промышленного ограждения балконов, лестниц и козырьков."],
+  ["Создание 3D макетов", "Возможность наиболее точно представить конечный результат проекта."],
+  ["Окрашивание", "Окрашивание стекла и фурнитуры по системе RAL или выбранному цвету."],
+  ["УФ-склейка стекла", "Немецкое оборудование позволяет достичь идеального качества склейки."],
+];
+
+export default async function Home() {
+  const items = await contentRepository.getCatalogItems();
+  return <>
+    <section className="legacy-home-hero">
+      <HeroImageSlider />
+      <div className="legacy-hero-overlay" />
+      <div className="legacy-hero-content content-width"><h1><span>Стеклянные ограждения</span>любой сложности</h1><Link href="/izdeliya">В галерею <b>›</b></Link><p>Наша работа – это сочетание идеального качества и Ваших фантазий.</p></div>
+    </section>
+
+    <RequestSection />
+
+    <section className="legacy-about content-width">
+      <div className="about-pictures"><figure><Image src="/images/Основные направления деятельности/photo_2024-02-20_11-49-39.jpg" alt="Зеркала компании Идеальный Дом" fill sizes="(max-width: 800px) 100vw, 42vw" /></figure><figure><Image src="/images/Душевые ограждения/Цельностеклянное душевое ограждение.jpg" alt="Цельностеклянное душевое ограждение" fill sizes="(max-width: 800px) 60vw, 22vw" /></figure></div>
+      <div className="about-copy"><p className="section-kicker">О компании</p><h2>Компания Идеальный Дом работает на рынке стеклянных изделий с 2015 года.</h2><p>На сегодняшний день в нашем портфолио есть такие объекты как Академия единоборств в Сочи, Новгородская техническая школа, Национальный медицинский исследовательский центр имени В.А. Алмазова.</p><p>Также мы выполняем частные заказы по изготовлению и монтажу изделий из стекла высокого качества.</p><Link className="arrow-link" href="/o-kompanii">Подробнее <span>→</span></Link></div>
+    </section>
+
+    <section className="legacy-stat"><div className="content-width"><strong>Более 10 тысяч</strong><p>реализованных изделий</p><span>Продажа по всей России</span></div></section>
+
+    <section className="home-catalog content-width"><p className="section-kicker">Категории работ</p><h2>Изделия из стекла и зеркала</h2><CatalogGrid items={items.slice(1,7)} /><Link className="blue-button catalog-all" href="/izdeliya">Смотреть весь каталог</Link></section>
+
+    <ProcessSteps />
+
+    <section className="home-projects"><div className="content-width"><p className="section-kicker">Реализованные проекты</p><h2>Трансформация пространства</h2><div className="home-project-grid">{["/images/Реализованные проекты/photo_2024-02-20_11-49-22.jpg","/images/Реализованные проекты/photo_2024-02-20_11-49-34.jpg","/images/Реализованные проекты/photo_2024-02-20_11-49-43.jpg","/images/Реализованные проекты/photo_2024-02-20_11-49-49.jpg"].map((src,index) => <figure key={src}><Image src={src} alt={`Реализованный проект ${index + 1}`} fill sizes="(max-width: 700px) 50vw, 25vw" /></figure>)}</div></div></section>
+
+    <section className="home-services content-width"><p className="section-kicker">Услуги</p><h2>Выполняем полный комплекс услуг</h2><div>{services.map(([title,text], index) => <article key={title}><span>0{index+1}</span><h3>{title}</h3><p>{text}</p></article>)}</div><Link className="blue-button" href="/uslugi">Все услуги</Link></section>
+  </>;
 }
