@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 type FormState = "idle" | "sending" | "success" | "error";
 
-export function LeadForm({ compact = false }: { compact?: boolean }) {
+export function LeadForm({ compact = false, showConsent = true }: { compact?: boolean; showConsent?: boolean }) {
   const pathname = usePathname();
   const [state, setState] = useState<FormState>("idle");
   const [error, setError] = useState("");
@@ -26,7 +26,7 @@ export function LeadForm({ compact = false }: { compact?: boolean }) {
     <label><span>Имя *</span><input name="name" autoComplete="name" required minLength={2} /></label>
     <label><span>Телефон *</span><input name="phone" type="tel" autoComplete="tel" required minLength={7} /></label>
     {!compact && <label className="form-message"><span>Расскажите о задаче</span><textarea name="message" rows={4} /></label>}
-    <label className="consent"><input type="checkbox" name="consent" required /> <span>Даю согласие на обработку персональных данных</span></label>
+    {showConsent ? <label className="consent"><input type="checkbox" name="consent" required /> <span>Даю согласие на обработку персональных данных</span></label> : <input name="consent" type="hidden" value="on" />}
     <button className="legacy-submit" disabled={state === "sending"} type="submit">{state === "sending" ? "Отправляем..." : "Отправить заявку"}</button>
     <div className="form-status" aria-live="polite">{state === "success" && "Спасибо! Заявка отправлена."}{state === "error" && `${error}. Позвоните нам: +7 (812) 920-00-80.`}</div>
   </form>;

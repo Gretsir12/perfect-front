@@ -27,6 +27,18 @@ export type Article = {
   seo: SeoData;
 };
 
+export type Service = {
+  slug: string;
+  title: string;
+  shortTitle: string;
+  description: string;
+  intro: string;
+  image: string;
+  imageAlt: string;
+  features: string[];
+  seo: SeoData;
+};
+
 export interface ContentRepository {
   getCatalogItems(): Promise<CatalogItem[]>;
   getCatalogItem(slug: string): Promise<CatalogItem | null>;
