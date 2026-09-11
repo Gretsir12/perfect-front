@@ -1,14 +1,10 @@
 "use client";
 
-import Image from "next/image";
+import { SiteImage as Image } from "@/components/site/SiteImage";
 import { useEffect, useState } from "react";
+import { siteImages } from "@/content/image-registry";
 
-const slides = [
-  { src: "/images/Промышленное остекление балконов/IMG_1862.jpg", alt: "Здание со стеклянными балконными ограждениями" },
-  { src: "/images/Фото Новгород/IMG_1334.jpg", alt: "Стеклянное ограждение в Новгородской технической школе" },
-  { src: "/images/Фото Новгород/IMG-1279.jpg", alt: "Стеклянное лестничное ограждение в современном интерьере" },
-  { src: "/images/Промышленное остекление балконов/IMG_1865.jpg", alt: "Фасад со стеклянными ограждениями балконов" },
-];
+const slides = siteImages.home.slides;
 
 const SLIDE_DURATION = 10_000;
 
@@ -35,7 +31,7 @@ export function HeroImageSlider() {
             className={index === activeSlide ? "hero-image-slide active" : "hero-image-slide"}
             key={slide.src}
           >
-            <Image src={slide.src} alt={slide.alt} fill priority={index === 0} sizes="100vw" />
+            <Image src={slide.src} alt={slide.alt} fill preload={index === 0} sizes="100vw" />
           </div>
         ))}
       </div>

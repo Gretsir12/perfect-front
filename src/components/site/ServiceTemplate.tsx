@@ -1,4 +1,5 @@
-import Image from "next/image";
+import { encodeAssetPath } from "@/lib/assets";
+import { SiteImage as Image } from "@/components/site/SiteImage";
 import Link from "next/link";
 import type { Service } from "@/content/types";
 import { Breadcrumbs } from "./Breadcrumbs";
@@ -14,7 +15,7 @@ export function ServiceTemplate({ service }: { service: Service }) {
     name: service.title,
     description: service.description,
     url,
-    image: `https://perfecthouse.spb.ru${service.image}`,
+    image: `https://perfecthouse.spb.ru${encodeAssetPath(service.image)}`,
     provider: { "@type": "HomeAndConstructionBusiness", name: "Идеальный Дом", telephone: "+7-812-920-00-80" },
     areaServed: "Санкт-Петербург и Ленинградская область",
   };

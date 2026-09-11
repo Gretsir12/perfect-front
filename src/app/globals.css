@@ -51,7 +51,7 @@ textarea {
 .blue-button,
 .outline-button {
   display: inline-flex;
-  align-items: left;
+  align-items: center;
   justify-content: center;
   min-height: 50px;
   padding: 0 28px;
@@ -427,6 +427,11 @@ textarea {
   font-size: 10px;
   font-weight: 400;
   text-transform: none
+}
+
+.legacy-form .consent a {
+  text-decoration: underline;
+  text-underline-offset: 3px
 }
 
 .legacy-submit {
@@ -998,7 +1003,7 @@ textarea {
   margin-top: 70px;
   padding-top: 22px;
   border-top: 1px solid rgba(255, 255, 255, .14);
-  color: rgba(255, 255, 255, .43);
+  color: rgba(255, 255, 255, .6);
   font-size: 10px
 }
 
@@ -1429,7 +1434,7 @@ body {
 
 main {
   background-color: #fff;
-  background-image: linear-gradient(rgba(255, 255, 255, .78), rgba(255, 255, 255, .78)), url("/images/файлы для сайта/pngwing.com-1.png");
+  background-image: linear-gradient(rgba(255, 255, 255, .78), rgba(255, 255, 255, .78)), var(--image-facets);
   background-position: top center;
   background-size: 650px auto;
   background-repeat: repeat
@@ -1456,7 +1461,7 @@ main {
   letter-spacing: .28em
 }
 
-.legacy-header.is-home {
+.legacy-header {
   position: absolute;
   inset: 0 0 auto;
   z-index: 50;
@@ -1464,7 +1469,7 @@ main {
   color: #fff
 }
 
-.legacy-header.is-home .legacy-topbar {
+.legacy-header .legacy-topbar {
   height: 44px;
   grid-template-columns: 1fr 1fr;
   padding: 0 max(120px, calc((100% - 1065px)/2));
@@ -1474,29 +1479,29 @@ main {
   letter-spacing: .04em
 }
 
-.legacy-header.is-home .legacy-topbar>a {
+.legacy-header .legacy-topbar>a {
   display: flex;
   align-items: center;
   gap: 14px
 }
 
-.legacy-header.is-home .legacy-topbar>a:last-child {
+.legacy-header .legacy-topbar>a:last-child {
   justify-content: flex-end;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: .35em
 }
 
-.legacy-header.is-home .legacy-topbar>a b {
+.legacy-header .legacy-topbar>a b {
   font-size: 15px;
   letter-spacing: 0
 }
 
-.legacy-header.is-home .ticker {
+.legacy-header .ticker {
   display: none
 }
 
-.legacy-header.is-home .legacy-navbar {
+.legacy-header .legacy-navbar {
   width: min(1196px, calc(100% - 64px));
   height: 97px;
   margin: auto;
@@ -1507,30 +1512,30 @@ main {
   color: #2e2e2e
 }
 
-.legacy-header.is-home .legacy-logo {
+.legacy-header .legacy-logo {
   height: 97px;
   display: flex;
   align-items: center;
   padding-left: 23px
 }
 
-.legacy-header.is-home .legacy-logo img {
+.legacy-header .legacy-logo img {
   width: 170px;
   height: auto
 }
 
-.legacy-header.is-home .legacy-nav {
+.legacy-header .legacy-nav {
   gap: 34px
 }
 
-.legacy-header.is-home .legacy-nav a {
+.legacy-header .legacy-nav a {
   font-size: 12px;
   font-weight: 500;
   letter-spacing: .18em;
   text-transform: uppercase
 }
 
-.legacy-header.is-home .legacy-apply {
+.legacy-header .legacy-apply {
   justify-self: stretch;
   width: 240px;
   height: 97px;
@@ -1546,7 +1551,7 @@ main {
   text-align: center
 }
 
-.legacy-header.is-home .legacy-apply span {
+.legacy-header .legacy-apply span {
   display: block
 }
 
@@ -1649,7 +1654,7 @@ main {
   overflow: visible
 }
 
-.legacy-home-stage .request-grid {
+.request-grid {
   position: relative;
   top: -49px;
   height: 250px;
@@ -1657,12 +1662,12 @@ main {
   gap: 64px;
   align-items: center;
   padding: 35px 55px 30px 116px;
-  background: linear-gradient(rgba(140, 205, 241, .8), rgba(140, 205, 241, .8)), url("/images/dr.png") 0 -235px/1200px auto no-repeat;
+  background: linear-gradient(rgba(140, 205, 241, .8), rgba(140, 205, 241, .8)), var(--image-request) 0 -235px/1200px auto no-repeat;
   border-left: 4px solid #0e3055;
   color: #fff
 }
 
-.legacy-home-stage .request-grid::before {
+.request-grid::before {
   content: "ДЛЯ ЗАКАЗА";
   position: absolute;
   left: 50px;
@@ -1673,11 +1678,11 @@ main {
   transform: translateY(-50%) rotate(180deg)
 }
 
-.legacy-home-stage .request-grid .section-kicker {
+.request-grid .section-kicker {
   display: none
 }
 
-.legacy-home-stage .request-grid h2 {
+.request-grid h2 {
   margin: 0 0 20px;
   color: #fff;
   font-size: 50px;
@@ -1686,7 +1691,7 @@ main {
   white-space: nowrap
 }
 
-.legacy-home-stage .request-grid>div:first-child>p:last-child {
+.request-grid>div:first-child>p:last-child {
   margin: 0;
   color: #fff;
   font-size: 14px;
@@ -1694,16 +1699,16 @@ main {
   line-height: 1.8
 }
 
-.legacy-home-stage .request-grid .legacy-form {
+.request-grid .legacy-form {
   gap: 19px 30px;
   align-items: end
 }
 
-.legacy-home-stage .request-grid .legacy-form label {
+.request-grid .legacy-form label {
   gap: 2px
 }
 
-.legacy-home-stage .request-grid .legacy-form label span {
+.request-grid .legacy-form label span {
   color: rgba(255, 255, 255, .75);
   font-size: 14px;
   font-weight: 500;
@@ -1711,8 +1716,8 @@ main {
   text-transform: none
 }
 
-.legacy-home-stage .request-grid .legacy-form input,
-.legacy-home-stage .request-grid .legacy-form textarea {
+.request-grid .legacy-form input,
+.request-grid .legacy-form textarea {
   height: 31px;
   padding: 2px 0;
   border: 0;
@@ -1722,28 +1727,28 @@ main {
   resize: none
 }
 
-.legacy-home-stage .request-grid .legacy-form textarea {
+.request-grid .legacy-form textarea {
   height: 38px
 }
 
-.legacy-home-stage .request-grid .legacy-form .consent {
+.request-grid .legacy-form .consent {
   order: 8;
   grid-column: 1/-1;
   align-items: center;
   opacity: .85
 }
 
-.legacy-home-stage .request-grid .legacy-form .consent input {
+.request-grid .legacy-form .consent input {
   width: 14px;
   height: 14px;
   border: 1px solid #fff
 }
 
-.legacy-home-stage .request-grid .legacy-form .consent span {
+.request-grid .legacy-form .consent span {
   font-size: 10px
 }
 
-.legacy-home-stage .request-grid .legacy-submit {
+.request-grid .legacy-submit {
   min-height: 42px;
   width: 100%;
   padding: 8px 20px;
@@ -1753,7 +1758,7 @@ main {
   letter-spacing: .08em
 }
 
-.legacy-home-stage .request-grid .form-status {
+.request-grid .form-status {
   order: 9;
   min-height: 0;
   margin-top: -12px
@@ -1770,7 +1775,7 @@ main {
   position: absolute;
   z-index: -1;
   inset: 0 calc(50% - 50vw);
-  background: linear-gradient(rgba(255, 255, 255, .82), rgba(255, 255, 255, .82)), url("/images/файлы для сайта/pngwing.com-1.png") center/cover
+  background: linear-gradient(rgba(255, 255, 255, .82), rgba(255, 255, 255, .82)), var(--image-facets) center/cover
 }
 
 .about-copy h2 {
@@ -1859,15 +1864,15 @@ main {
 }
 
 @media(max-width:1180px) {
-  .legacy-header.is-home .legacy-navbar {
+  .legacy-header .legacy-navbar {
     grid-template-columns: 185px 1fr 190px
   }
 
-  .legacy-header.is-home .legacy-nav {
+  .legacy-header .legacy-nav {
     gap: 18px
   }
 
-  .legacy-header.is-home .legacy-apply {
+  .legacy-header .legacy-apply {
     width: 190px
   }
 
@@ -1877,15 +1882,15 @@ main {
 }
 
 @media(max-width:1050px) {
-  .legacy-header.is-home .legacy-topbar {
+  .legacy-header .legacy-topbar {
     padding-inline: 32px
   }
 
-  .legacy-header.is-home .legacy-navbar {
+  .legacy-header .legacy-navbar {
     grid-template-columns: 1fr 60px
   }
 
-  .legacy-header.is-home .legacy-apply {
+  .legacy-header .legacy-apply {
     display: none
   }
 
@@ -1893,13 +1898,13 @@ main {
     width: calc(100% - 120px)
   }
 
-  .legacy-home-stage .request-grid {
+  .request-grid {
     grid-template-columns: minmax(360px, 455px) minmax(0, 1fr);
     padding-left: 85px;
     gap: 35px
   }
 
-  .legacy-home-stage .request-grid h2 {
+  .request-grid h2 {
     font-size: 44px
   }
 }
@@ -1909,18 +1914,18 @@ main {
     width: calc(100% - 32px)
   }
 
-  .legacy-header.is-home .legacy-navbar {
+  .legacy-header .legacy-navbar {
     width: calc(100% - 32px);
     height: 78px;
     margin-top: 16px
   }
 
-  .legacy-header.is-home .legacy-logo {
+  .legacy-header .legacy-logo {
     height: 78px;
     padding-left: 14px
   }
 
-  .legacy-header.is-home .legacy-logo img {
+  .legacy-header .legacy-logo img {
     width: 145px
   }
 
@@ -1971,7 +1976,7 @@ main {
     background: var(--sky)
   }
 
-  .legacy-home-stage .request-grid {
+  .request-grid {
     top: 0;
     width: 100%;
     height: auto;
@@ -1981,16 +1986,16 @@ main {
     border-left: 0
   }
 
-  .legacy-home-stage .request-grid::before {
+  .request-grid::before {
     display: none
   }
 
-  .legacy-home-stage .request-grid h2 {
+  .request-grid h2 {
     font-size: 40px;
     white-space: normal
   }
 
-  .legacy-home-stage .request-grid .legacy-form {
+  .request-grid .legacy-form {
     grid-template-columns: 1fr
   }
 
@@ -2024,7 +2029,7 @@ main {
 .original-about {
   position: relative;
   padding: 220px 0 165px;
-  background: linear-gradient(rgba(255, 255, 255, .72), rgba(255, 255, 255, .72)), url("/images/файлы для сайта/pngwing.com-1.png") center/cover
+  background: linear-gradient(rgba(255, 255, 255, .72), rgba(255, 255, 255, .72)), var(--image-facets) center/cover
 }
 
 .original-about-grid {
@@ -2123,7 +2128,7 @@ main {
   position: absolute;
   z-index: -1;
   inset: -22%;
-  background: url("/images/файлы для сайта/pngwing.com-1.png") center/cover no-repeat;
+  background: var(--image-facets) center/cover no-repeat;
   transform: translate3d(0, 0, 0) scale(1.04);
   will-change: transform
 }
@@ -2174,14 +2179,14 @@ main {
 .original-cycle {
   position: relative;
   padding: 90px 0 75px;
-  background: linear-gradient(rgba(28, 28, 28, .55), rgba(28, 28, 28, .55)), url("/images/original-home/marius.png") center/cover;
+  background: linear-gradient(rgba(28, 28, 28, .55), rgba(28, 28, 28, .55)), var(--image-production) center/cover;
   color: #fff;
   overflow: hidden
 }
 
 .original-cycle-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   min-height: 560px;
   align-items: center
 }
@@ -2226,70 +2231,84 @@ main {
   transform: rotate(90deg)
 }
 
-.cycle-orbit {
+.production-model {
   position: relative;
-  width: 520px;
-  height: 520px;
+  width: min(100%, 520px);
+  min-width: 0;
+  aspect-ratio: 1;
   margin: auto;
-  border: 1px solid rgba(255, 255, 255, .28);
-  border-radius: 50%
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 28px
 }
 
-.cycle-orbit::before,
-.cycle-orbit::after {
-  content: "";
-  position: absolute;
-  border: 1px solid rgba(255, 255, 255, .2);
-  border-radius: 50%
-}
-
-.cycle-orbit::before {
-  inset: 55px
-}
-
-.cycle-orbit::after {
-  inset: 110px;
-  background: rgba(140, 205, 241, .12);
-  backdrop-filter: blur(4px)
-}
-
-.cycle-orbit span,
-.cycle-orbit i,
-.cycle-orbit b {
-  position: absolute;
-  z-index: 2;
-  width: 16px;
-  height: 16px;
-  border: 3px solid #8ccdf1;
+.production-model-disc {
+  width: clamp(220px, 23vw, 300px);
+  max-width: 100%;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
   border-radius: 50%;
-  background: #fff
+  background: #282828 var(--image-productionModel) center/cover;
+  animation: production-model-pulse 4.8s ease-in-out infinite
 }
 
-.cycle-orbit span {
-  left: 45px;
-  top: 105px
+.production-model-text {
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+  color: #fff;
+  text-shadow: 0 2px 14px #000;
+  font-size: clamp(15px, 1.5vw, 20px);
+  letter-spacing: 2px
 }
 
-.cycle-orbit i {
-  right: 66px;
-  top: 65px
+.production-model-text strong {
+  font-size: clamp(76px, 7.5vw, 100px);
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 0;
+  animation: production-model-turn 4.8s ease-in-out infinite
 }
 
-.cycle-orbit b {
-  right: 85px;
-  bottom: 70px
+.production-model:not([data-active="true"]) .production-model-disc,
+.production-model:not([data-active="true"]) strong {
+  animation-play-state: paused
+}
+
+@keyframes production-model-pulse {
+  0%, 15%, 80%, 100% { transform: scale(1) }
+  40% { transform: scale(1.08) }
+}
+
+@keyframes production-model-turn {
+  0%, 15%, 80%, 100% { transform: scale(1) rotate(0) }
+  40% { transform: scale(1.15) rotate(0) }
+  46% { transform: scale(1.15) rotate(-5deg) }
+  52% { transform: scale(1.15) rotate(5deg) }
+  58% { transform: scale(1.15) rotate(0) }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .production-model-disc,
+  .production-model-text strong {
+    animation: none
+  }
+
 }
 
 .original-projects {
   padding: 105px 0;
-  background: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url("/images/файлы для сайта/pngwing.com-1.png") top center/100% auto
+  background: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), var(--image-facets) top center/100% auto
 }
 
 .original-projects .original-label {
   display: block;
   width: max-content;
   margin: auto;
-  background: #8ccdf1
+  background: #8ccdf1;
+  color: #20215c
 }
 
 .original-projects h2 {
@@ -2325,7 +2344,7 @@ main {
 .original-transformation {
   position: relative;
   padding: 120px 0;
-  background: linear-gradient(270deg, rgba(0, 15, 75, .93), rgba(24, 56, 72, .72)), url("/images/файлы для сайта/1679341117_celes-club-p-analiticheskii-fon-oboi-57.png") center/cover;
+  background: linear-gradient(270deg, rgba(0, 15, 75, .93), rgba(24, 56, 72, .72)), var(--image-transformation) center/cover;
   color: #fff
 }
 
@@ -2357,7 +2376,8 @@ main {
 
 .process-detail-list>.original-label {
   margin-bottom: 28px;
-  background: #8ccdf1
+  background: #8ccdf1;
+  color: #20215c
 }
 
 .process-detail-list article,
@@ -2400,7 +2420,7 @@ main {
 
 .original-services {
   padding: 100px 0 160px;
-  background: linear-gradient(rgba(255, 255, 255, .76), rgba(255, 255, 255, .76)), url("/images/файлы для сайта/pngwing.com-1.png") center/cover
+  background: linear-gradient(rgba(255, 255, 255, .76), rgba(255, 255, 255, .76)), var(--image-facets) center/cover
 }
 
 .services-layout {
@@ -2492,8 +2512,21 @@ main {
     padding: 0 30px
   }
 
-  .cycle-orbit {
-    display: none
+  .production-model {
+    width: min(100%, 400px);
+    margin-top: 35px
+  }
+
+  .production-model-disc {
+    width: clamp(220px, 60vw, 300px)
+  }
+
+  .production-model-text {
+    font-size: 18px
+  }
+
+  .production-model-text strong {
+    font-size: 90px
   }
 
   .services-title {

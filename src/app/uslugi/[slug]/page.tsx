@@ -1,3 +1,4 @@
+import { pageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ServiceTemplate } from "@/components/site/ServiceTemplate";
@@ -10,13 +11,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const service = getService((await params).slug);
   if (!service) return {};
-  return {
-    title: service.seo.title,
-    description: service.seo.description,
-    keywords: service.seo.keywords,
-    alternates: { canonical: `/uslugi/${service.slug}` },
-    openGraph: { title: service.seo.title, description: service.seo.description, url: `/uslugi/${service.slug}`, images: [{ url: service.image, alt: service.imageAlt }] },
-  };
+  return pageMetadata({ title: service.seo.title, description: service.seo.description, keywords: service.seo.keywords, path: `/uslugi/${service.slug}`, image: { src: service.image, alt: service.imageAlt } });
 }
 
 export default async function ServicePage({ params }: { params: Promise<{ slug: string }> }) {

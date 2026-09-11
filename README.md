@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Perfect House
 
-## Getting Started
+Сайт компании «Идеальный Дом»: Next.js 16.3, React 19, TypeScript. Контент хранится в `src/content`, заявки отправляются через SMTP.
 
-First, run the development server:
+## Запуск
 
-```bash
+```sh
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Сайт доступен на http://localhost:3000. Для production:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+npm run build
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Проверки
 
-## Learn More
+```sh
+npm run lint
+npm run build
+npm audit
+npm run images:check
+# В другом терминале должен работать сервер:
+npm run test:smoke
+# Для сервера на другом порту:
+SMOKE_BASE_URL=http://127.0.0.1:3100 npm run test:smoke
+```
 
-To learn more about Next.js, take a look at the following resources:
+Для браузерной проверки установите Chromium (`npx playwright install chromium`), запустите production-сервер и выполните `npm run audit:browser`. Другой адрес задаётся через `AUDIT_BASE_URL`, путь к установленному браузеру — через `PLAYWRIGHT_EXECUTABLE_PATH`. Результат: `artifacts/audit-latest.json`. Проверяются все страницы на трёх ширинах экрана, доступность и взаимодействия.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Smoke-проверка обходит страницы из sitemap, внутренние ссылки, локальные изображения, неизвестные маршруты, старые редиректы и валидацию API. Она не отправляет настоящие заявки.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Заявки
 
-## Deploy on Vercel
+Создайте `.env.local` с переменными из `.env.example`: `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `SMTP_FROM`, `LEADS_TO_EMAIL`. Для порта 465 используется TLS. Не добавляйте секреты в Git.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Без SMTP в development форма сообщает, что письмо не отправлено. В production API отвечает 503. Реальную доставку нужно проверить отдельно с настроенным почтовым сервером.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Структура и оформление
+
+- `src/app` — страницы, метаданные, API и общие стили.
+- `src/app/shared-site.css` — общая палитра, типографика, шапка, формы и оформление внутренних страниц в стиле главной.
+- `src/app/globals.css` — исходные стили и композиция секций главной.
+- `src/components/site` — общие блоки, анимация производства и `SiteImage`.
+- `src/components/catalog` — каталог и шаблон изделия.
+- `src/content` — изделия, услуги и статьи.
+- `src/proxy.ts` — переходы со старых адресов.
+
+Для локальных фотографий используйте `SiteImage`: он кодирует каждый сегмент пути, включая запятые, чтобы изображения находились и в production. Передавайте исходный, ещё не закодированный путь.
+
+Результаты проверки и оставшиеся замечания: [AUDIT.md](./AUDIT.md).
+
+## Как менять картинки
+
+Все фотографии, логотипы, фоны и изображения для публикации ссылок находятся в [src/content/images.json](./src/content/images.json). Редактировать компоненты для их замены не нужно.
+
+```sh
+# Создать каталог превью и ключей изображений:
+npm run images:catalog
+# Заменить конкретное фото (подставьте путь к своему файлу):
+npm run images:replace -- home.about.primary "/путь/новое-фото.jpg" --alt "Стеклянная перегородка в интерьере"
+```
+
+Откройте `artifacts/images-catalog.html` в браузере. Подробные способы замены, ключи секций и правила публикации: [IMAGES.md](./IMAGES.md). При production-сборке файлы проверяются автоматически.

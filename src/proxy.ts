@@ -17,7 +17,9 @@ export function proxy(request: NextRequest) {
   const pathname = request.nextUrl.pathname.replace(/\/$/, "") || "/";
   const match = legacyRoutes.find(([legacy]) => pathname === legacy || pathname.startsWith(`${legacy}/`));
   if (!match) return NextResponse.next();
-  return NextResponse.redirect(new URL(match[1], request.url), 301);
+  const destination = new URL(match[1], request.url);
+  destination.search = request.nextUrl.search;
+  return NextResponse.redirect(destination, 301);
 }
 
 export const config = {

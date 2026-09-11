@@ -1,11 +1,12 @@
-import Image from "next/image";
+import { siteImages } from "@/content/image-registry";
+import { SiteImage as Image } from "@/components/site/SiteImage";
 import Link from "next/link";
 
 export function Footer() {
   return <footer className="legacy-footer">
     <div className="legacy-footer-main content-width">
       <div className="footer-brand-block">
-        <Image src="/images/Логотип/Logo only 300 white 2.png" alt="Идеальный Дом" width={220} height={104} />
+        <Image src={siteImages.brand.footer.src} alt={siteImages.brand.footer.alt} width={220} height={104} />
         <p>Более 10 тысяч реализованных изделий<br />Продажа по всей России</p>
         <a href="https://vk.com/perfecthouse_ph" target="_blank" rel="noreferrer" aria-label="Мы во ВКонтакте">VK</a>
       </div>

@@ -1,3 +1,5 @@
+import type { SiteImageData } from "./image-registry";
+
 export type SeoData = {
   title: string;
   description: string;
@@ -13,7 +15,7 @@ export type CatalogItem = {
   image: string;
   imageAlt: string;
   features: string[];
-  gallery: string[];
+  gallery: SiteImageData[];
   seo: SeoData;
 };
 
@@ -23,6 +25,7 @@ export type Article = {
   excerpt: string;
   publishedAt: string;
   image: string;
+  imageAlt: string;
   paragraphs: string[];
   seo: SeoData;
 };
