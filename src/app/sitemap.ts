@@ -3,6 +3,7 @@ import { contentRepository } from "@/content/repository";
 import { services } from "@/content/services";
 
 const base = "https://perfecthouse.spb.ru";
+export const dynamic = "force-static";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [items, articles] = await Promise.all([contentRepository.getCatalogItems(), contentRepository.getArticles()]);
   const pages = ["", "/izdeliya", "/uslugi", "/ograzhdayushchie-konstruktsii", "/o-kompanii", "/blog", "/kontakty", "/sotrudnichestvo", "/privacy", "/soglasie-na-obrabotku-pdn"];
