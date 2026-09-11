@@ -1,0 +1,159 @@
+[
+  {
+    "id": "color-contrast",
+    "impact": "serious",
+    "tags": [
+      "cat.color",
+      "wcag2aa",
+      "wcag143",
+      "TTv5",
+      "TT13.c",
+      "EN-301-549",
+      "EN-9.1.4.3",
+      "ACT",
+      "RGAAv4",
+      "RGAA-3.2.1"
+    ],
+    "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "help": "Elements must meet minimum color contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
+    "nodes": [
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#ffffff",
+              "bgColor": "#8ccdf1",
+              "contrastRatio": 1.73,
+              "fontSize": "8.3pt (11px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<span class=\"original-label\">Каталог</span>",
+                "target": [
+                  ".content-width > .original-label"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 1.73 (foreground color: #ffffff, background color: #8ccdf1, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"original-label\">Каталог</span>",
+        "target": [
+          ".content-width > .original-label"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.73 (foreground color: #ffffff, background color: #8ccdf1, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#ffffff",
+              "bgColor": "#8ccdf1",
+              "contrastRatio": 1.73,
+              "fontSize": "8.3pt (11px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<span class=\"original-label\">Процесс</span>",
+                "target": [
+                  ".process-detail-list > .original-label"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 1.73 (foreground color: #ffffff, background color: #8ccdf1, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span class=\"original-label\">Процесс</span>",
+        "target": [
+          ".process-detail-list > .original-label"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.73 (foreground color: #ffffff, background color: #8ccdf1, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#777d80",
+              "bgColor": "#111b20",
+              "contrastRatio": 4.18,
+              "fontSize": "7.5pt (10px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<footer class=\"legacy-footer\">",
+                "target": [
+                  "footer"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.18 (foreground color: #777d80, background color: #111b20, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span>Работаем для вас с 2015 года</span>",
+        "target": [
+          ".legacy-footer-bottom > span:nth-child(1)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.18 (foreground color: #777d80, background color: #111b20, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+      },
+      {
+        "any": [
+          {
+            "id": "color-contrast",
+            "data": {
+              "fgColor": "#777d80",
+              "bgColor": "#111b20",
+              "contrastRatio": 4.18,
+              "fontSize": "7.5pt (10px)",
+              "fontWeight": "normal",
+              "messageKey": null,
+              "expectedContrastRatio": "4.5:1"
+            },
+            "relatedNodes": [
+              {
+                "html": "<footer class=\"legacy-footer\">",
+                "target": [
+                  "footer"
+                ]
+              }
+            ],
+            "impact": "serious",
+            "message": "Element has insufficient color contrast of 4.18 (foreground color: #777d80, background color: #111b20, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ],
+        "all": [],
+        "none": [],
+        "impact": "serious",
+        "html": "<span>Copyright <!-- -->2026<!-- --> Perfect House</span>",
+        "target": [
+          ".legacy-footer-bottom > span:nth-child(2)"
+        ],
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.18 (foreground color: #777d80, background color: #111b20, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+      }
+    ]
+  }
+]

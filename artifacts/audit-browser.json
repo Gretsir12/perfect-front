@@ -1,0 +1,484 @@
+{
+  "pages": [
+    {
+      "path": "/",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/uslugi",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/ograzhdayushchie-konstruktsii",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/o-kompanii",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/blog",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/kontakty",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/sotrudnichestvo",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/privacy",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/soglasie-na-obrabotku-pdn",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/steklo",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/zerkala",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/dushevye-ograzhdeniya",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/ograzhdeniya-dlya-saun-i-hammamov",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/terrasy-i-ulichnye-ograzhdeniya",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/ofisnye-peregorodki",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/mezhkomnatnye-dveri",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/balkonnye-ograzhdeniya",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/polki-lyuki-i-ograzhdeniya",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/gnutye-stekla",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/lestnichnye-ograzhdeniya",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/uslugi/razrabotka-proektov",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/uslugi/vizualizatsiya-izdeliy",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/uslugi/3d-makety",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/uslugi/okrashivanie-stekla-i-furnitury",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/uslugi/nanesenie-risunka-na-steklo",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/uslugi/uf-skleika-stekla",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/blog/dushevoe-ograzhdenie-iz-nerzhaveyushhej-stali",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/blog/ograzhdenie-iz-stekla-dlya-terras",
+      "width": 390,
+      "scrollWidth": 390,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/uslugi",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/ograzhdayushchie-konstruktsii",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/o-kompanii",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/blog",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/kontakty",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/sotrudnichestvo",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/privacy",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/soglasie-na-obrabotku-pdn",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/steklo",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/zerkala",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/dushevye-ograzhdeniya",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/ograzhdeniya-dlya-saun-i-hammamov",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/terrasy-i-ulichnye-ograzhdeniya",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/ofisnye-peregorodki",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/mezhkomnatnye-dveri",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/balkonnye-ograzhdeniya",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/polki-lyuki-i-ograzhdeniya",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/gnutye-stekla",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/izdeliya/lestnichnye-ograzhdeniya",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/uslugi/razrabotka-proektov",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/uslugi/vizualizatsiya-izdeliy",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/uslugi/3d-makety",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/uslugi/okrashivanie-stekla-i-furnitury",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/uslugi/nanesenie-risunka-na-steklo",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/uslugi/uf-skleika-stekla",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/blog/dushevoe-ograzhdenie-iz-nerzhaveyushhej-stali",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    },
+    {
+      "path": "/blog/ograzhdenie-iz-stekla-dlya-terras",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "broken": [],
+      "pending": []
+    }
+  ],
+  "accessibility": [
+    {
+      "path": "/",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "path": "/izdeliya",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "path": "/uslugi",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "path": "/kontakty",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "path": "/blog",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "path": "/uslugi/3d-makety",
+      "width": 390,
+      "violations": []
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "path": "/izdeliya",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "path": "/uslugi",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "path": "/kontakty",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "path": "/blog",
+      "width": 1440,
+      "violations": []
+    },
+    {
+      "path": "/uslugi/3d-makety",
+      "width": 1440,
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "Model fits 320/390/768/900/1024/1440; pause, offscreen pause and reduced motion pass",
+    "Mobile navigation and closed menu inert pass",
+    "Required consent, backend error and development result pass (mocked delivery)",
+    "Cookie choice works with storage disabled",
+    "Model visible without JavaScript"
+  ],
+  "finalAdjustments": [
+    "Animation button removed; animation runs on desktop and mobile",
+    "Home checkbox removed; notice and mocked submission pass; contact checkbox remains"
+  ]
+}

@@ -1,0 +1,32 @@
+1:"$Sreact.fragment"
+2:I[8437,["256","static/chunks/256-8a8328c4ebc651f1.js","877","static/chunks/app/privacy/page-de17bbf6efe22729.js"],"Image"]
+3:I[8500,["256","static/chunks/256-8a8328c4ebc651f1.js","877","static/chunks/app/privacy/page-de17bbf6efe22729.js"],""]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+9:I[484,[],"ViewportBoundary"]
+a:I[484,[],"MetadataBoundary"]
+8:X
+17:X
+17:C
+0:{"buildId":"ges7xN9q_zYTL6MajrpC_","data":[{"rsc":["$","$1","c",{"children":[[["$","section",null,{"className":"page-hero","children":[["$","$L2",null,{"src":"/images/%D0%9F%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B1%D0%B0%D0%BB%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2/IMG_1862.jpg","alt":"","fill":true,"preload":true,"sizes":"100vw"}],["$","div",null,{"className":"page-hero-overlay"}],["$","div",null,{"className":"content-width","children":[["$","span",null,{"className":"page-hero-label","children":"Идеальный Дом"}],["$","h1",null,{"children":"Политика конфиденциальности"}],"$undefined"]}]]}],[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Главная\",\"item\":\"https://perfecthouse.spb.ru/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Политика конфиденциальности\"}]}"}}],["$","nav",null,{"className":"breadcrumbs content-width","aria-label":"Хлебные крошки","children":[["$","$L3",null,{"href":"/","children":"Главная"}],[["$","span","Политика конфиденциальности",{"children":["/ ","Политика конфиденциальности"]}]]]}]],["$","article",null,{"className":"legal-page content-width","children":[["$","h2",null,{"children":"Общие положения"}],["$","p",null,{"children":"Настоящая политика описывает порядок обработки персональных данных посетителей сайта компании «Идеальный Дом»."}],["$","h2",null,{"children":"Какие данные мы обрабатываем"}],["$","p",null,{"children":"Имя, номер телефона, адрес электронной почты и сведения, которые пользователь добровольно указывает при обращении в компанию."}],["$","h2",null,{"children":"Цель обработки"}],["$","p",null,{"children":"Ответ на обращение, подготовка расчёта, согласование замера и оказание заказанных услуг. Данные не передаются третьим лицам, кроме случаев, предусмотренных законодательством Российской Федерации."}],["$","h2",null,{"children":"Контакты"}],["$","p",null,{"children":["По вопросам обработки данных напишите на ",["$","a",null,{"href":"mailto:grana@grana-as.ru","children":"grana@grana-as.ru"}],"."]}],["$","p",null,{"children":["$","$L3",null,{"href":"/soglasie-na-obrabotku-pdn","children":"Согласие на обработку персональных данных"}]}]]}]],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":"$@7","staleTime":"$8","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L9",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#111b20"}]]}],["$","div",null,{"hidden":true,"children":["$","$La",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Политика конфиденциальности | Идеальный Дом"}],["$","meta","1",{"name":"description","content":"Политика обработки персональных данных компании Идеальный Дом."}],["$","meta","2",{"name":"author","content":"Идеальный Дом"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","4",{"name":"creator","content":"Идеальный Дом"}],["$","meta","5",{"name":"publisher","content":"Идеальный Дом"}],["$","meta","6",{"name":"robots","content":"index, follow"}],["$","meta","7",{"name":"googlebot","content":"index, follow, max-image-preview:large, max-snippet:-1"}],["$","meta","8",{"name":"category","content":"construction"}],["$","link","9",{"rel":"canonical","href":"https://perfecthouse.spb.ru/privacy"}],["$","meta","10",{"property":"og:title","content":"Политика конфиденциальности"}],["$","meta","11",{"property":"og:description","content":"Политика обработки персональных данных компании Идеальный Дом."}],["$","meta","12",{"property":"og:url","content":"https://perfecthouse.spb.ru/privacy"}],["$","meta","13",{"property":"og:site_name","content":"Идеальный Дом"}],["$","meta","14",{"property":"og:locale","content":"ru_RU"}],["$","meta","15",{"property":"og:image","content":"https://perfecthouse.spb.ru/images/%D0%9F%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B1%D0%B0%D0%BB%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2/IMG_1862.jpg"}],"$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13"]}]}]}],null]}],"isPartial":"$@14","staleTime":"$8","varyParams":null},{"rsc":"$L15","isPartial":"$@16","staleTime":"$8","varyParams":"$17"}],"isUpgradeableISRFallback":false,"a":"$@18","rootVaryParams":null,"needsRuntimeRequest":"$@19"}
+1a:I[6869,[],"IconMark"]
+1b:I[7121,[],""]
+1c:I[4581,[],""]
+6:null
+b:["$","meta","16",{"property":"og:image:alt","content":"Стеклянные конструкции"}]
+c:["$","meta","17",{"property":"og:type","content":"website"}]
+d:["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}]
+e:["$","meta","19",{"name":"twitter:title","content":"Политика конфиденциальности"}]
+f:["$","meta","20",{"name":"twitter:description","content":"Политика обработки персональных данных компании Идеальный Дом."}]
+10:["$","meta","21",{"name":"twitter:image","content":"https://perfecthouse.spb.ru/images/%D0%9F%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B1%D0%B0%D0%BB%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2/IMG_1862.jpg"}]
+11:["$","meta","22",{"name":"twitter:image:alt","content":"Стеклянные конструкции"}]
+12:["$","link","23",{"rel":"icon","href":"/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}]
+13:["$","$L1a","24",{}]
+15:["$","$1","c",{"children":[null,["$","$L1b",null,{"parallelRouterKey":"children","template":["$","$L1c",null,{}]}]]}]
+19:true
+8:300
+8:C
+18:0
+14:"$undefined"
+16:"$undefined"
+7:"$undefined"

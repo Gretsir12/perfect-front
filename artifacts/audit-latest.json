@@ -1,0 +1,799 @@
+{
+  "base": "http://127.0.0.1:3100",
+  "browser": "148.0.7778.96",
+  "checkedAt": "2026-09-09T16:42:39.219Z",
+  "pages": [
+    {
+      "pathname": "/",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/ograzhdayushchie-konstruktsii",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/o-kompanii",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/blog",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/kontakty",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/sotrudnichestvo",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/privacy",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/soglasie-na-obrabotku-pdn",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/steklo",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/zerkala",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/dushevye-ograzhdeniya",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/ograzhdeniya-dlya-saun-i-hammamov",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/terrasy-i-ulichnye-ograzhdeniya",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/ofisnye-peregorodki",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/mezhkomnatnye-dveri",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/balkonnye-ograzhdeniya",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/polki-lyuki-i-ograzhdeniya",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/gnutye-stekla",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/lestnichnye-ograzhdeniya",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/razrabotka-proektov",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/vizualizatsiya-izdeliy",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/3d-makety",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/okrashivanie-stekla-i-furnitury",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/nanesenie-risunka-na-steklo",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/uf-skleika-stekla",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/blog/dushevoe-ograzhdenie-iz-nerzhaveyushhej-stali",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/blog/ograzhdenie-iz-stekla-dlya-terras",
+      "width": 390,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/ograzhdayushchie-konstruktsii",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/o-kompanii",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/blog",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/kontakty",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/sotrudnichestvo",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/privacy",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/soglasie-na-obrabotku-pdn",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/steklo",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/zerkala",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/dushevye-ograzhdeniya",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/ograzhdeniya-dlya-saun-i-hammamov",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/ofisnye-peregorodki",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/mezhkomnatnye-dveri",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/balkonnye-ograzhdeniya",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/polki-lyuki-i-ograzhdeniya",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/gnutye-stekla",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/lestnichnye-ograzhdeniya",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/razrabotka-proektov",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/vizualizatsiya-izdeliy",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/3d-makety",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/okrashivanie-stekla-i-furnitury",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/nanesenie-risunka-na-steklo",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/uf-skleika-stekla",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/blog/dushevoe-ograzhdenie-iz-nerzhaveyushhej-stali",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/ograzhdayushchie-konstruktsii",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/o-kompanii",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/blog",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/kontakty",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/sotrudnichestvo",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/privacy",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/soglasie-na-obrabotku-pdn",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/steklo",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/zerkala",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/dushevye-ograzhdeniya",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/ograzhdeniya-dlya-saun-i-hammamov",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/terrasy-i-ulichnye-ograzhdeniya",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/ofisnye-peregorodki",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/mezhkomnatnye-dveri",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/balkonnye-ograzhdeniya",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/polki-lyuki-i-ograzhdeniya",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/gnutye-stekla",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/lestnichnye-ograzhdeniya",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/razrabotka-proektov",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/vizualizatsiya-izdeliy",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/3d-makety",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/okrashivanie-stekla-i-furnitury",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/nanesenie-risunka-na-steklo",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/uslugi/uf-skleika-stekla",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/blog/dushevoe-ograzhdenie-iz-nerzhaveyushhej-stali",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/blog/ograzhdenie-iz-stekla-dlya-terras",
+      "width": 1440,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": true,
+      "violations": []
+    },
+    {
+      "pathname": "/izdeliya/terrasy-i-ulichnye-ograzhdeniya",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    },
+    {
+      "pathname": "/blog/ograzhdenie-iz-stekla-dlya-terras",
+      "width": 768,
+      "overflow": 0,
+      "broken": [],
+      "pending": [],
+      "accessibilityChecked": false,
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "Model fits 320–1440px, no animation button, reduced motion works",
+    "Mobile navigation, Escape and inert work",
+    "Home and contacts require checked consent; mocked submission works",
+    "Cookie choice works without localStorage",
+    "All background slots are present in the rendered page"
+  ],
+  "recheckedAt": "2026-09-09T16:49:41.928Z"
+}

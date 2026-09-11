@@ -1,0 +1,44 @@
+1:"$Sreact.fragment"
+2:I[8437,["256","static/chunks/256-8a8328c4ebc651f1.js","831","static/chunks/app/blog/page-de17bbf6efe22729.js"],"Image"]
+3:I[8500,["256","static/chunks/256-8a8328c4ebc651f1.js","831","static/chunks/app/blog/page-de17bbf6efe22729.js"],""]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+9:I[484,[],"ViewportBoundary"]
+a:I[484,[],"MetadataBoundary"]
+8:X
+23:X
+23:C
+0:{"buildId":"ges7xN9q_zYTL6MajrpC_","data":[{"rsc":["$","$1","c",{"children":[[["$","section",null,{"className":"page-hero","children":[["$","$L2",null,{"src":"/images/%D0%9F%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B1%D0%B0%D0%BB%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2/IMG_1862.jpg","alt":"","fill":true,"preload":true,"sizes":"100vw"}],["$","div",null,{"className":"page-hero-overlay"}],["$","div",null,{"className":"content-width","children":[["$","span",null,{"className":"page-hero-label","children":"Идеальный Дом"}],["$","h1",null,{"children":"Блог"}],["$","p",null,{"children":"Интересное о стекле"}]]}]]}],[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Главная\",\"item\":\"https://perfecthouse.spb.ru/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Блог\"}]}"}}],["$","nav",null,{"className":"breadcrumbs content-width","aria-label":"Хлебные крошки","children":[["$","$L3",null,{"href":"/","children":"Главная"}],[["$","span","Блог",{"children":["/ ","Блог"]}]]]}]],["$","section",null,{"className":"blog-grid content-width","children":[["$","article","dushevoe-ograzhdenie-iz-nerzhaveyushhej-stali",{"children":[["$","$L3",null,{"href":"/blog/dushevoe-ograzhdenie-iz-nerzhaveyushhej-stali","children":["$","figure",null,{"children":["$","$L2",null,{"src":"/images/%D0%94%D1%83%D1%88%D0%B5%D0%B2%D1%8B%D0%B5%20%D0%BE%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F/Choice%20Shower/%D0%94%D1%83%D1%88%D0%B5%D0%B2%D0%BE%D0%B5%20%D0%BE%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5.jpg","alt":"Душевое ограждение из нержавеющей стали","fill":true,"sizes":"(max-width: 700px) 100vw, 50vw"}]}]}],["$","time",null,{"dateTime":"2024-04-23","children":"23 апреля 2024 г."}],["$","h2",null,{"children":["$","$L3",null,{"href":"/blog/dushevoe-ograzhdenie-iz-nerzhaveyushhej-stali","children":"Душевое ограждение из нержавеющей стали"}]}],["$","p",null,{"children":"Самонесущая конструкция отличается особой прочностью и не требует дополнительных опор."}],["$","$L3",null,{"className":"arrow-link","href":"/blog/dushevoe-ograzhdenie-iz-nerzhaveyushhej-stali","children":["Читать ",["$","span",null,{"children":"→"}]]}]]}],["$","article","ograzhdenie-iz-stekla-dlya-terras",{"children":[["$","$L3",null,{"href":"/blog/ograzhdenie-iz-stekla-dlya-terras","children":["$","figure",null,{"children":["$","$L2",null,{"src":"/images/%D0%A2%D0%B5%D1%80%D0%B0%D1%81%D1%81%D1%8B%2C%20%D1%83%D0%BB%D0%B8%D1%87%D0%BD%D0%B5%20%D0%BE%D1%80%D0%B3%D0%B0%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F/%D0%B1%D0%B5%D0%B7%D1%80%D0%B0%D0%BC%D0%BD%D0%BE%D0%B5%20%D0%BE%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%82%D0%B5%D1%80%D1%80%D0%B0%D1%81%D1%8B.jpg","alt":"Ограждение из стекла для террас","fill":true,"sizes":"(max-width: 700px) 100vw, 50vw"}]}]}],["$","time",null,{"dateTime":"2024-04-23","children":"23 апреля 2024 г."}],["$","h2",null,{"children":["$","$L3",null,{"href":"/blog/ograzhdenie-iz-stekla-dlya-terras","children":"Ограждение из стекла для террас"}]}],["$","p",null,{"children":"Эстетичный и безопасный способ оформить террасу, сохранив солнечный свет и открытый обзор."}],["$","$L3",null,{"className":"arrow-link","href":"/blog/ograzhdenie-iz-stekla-dlya-terras","children":["Читать ",["$","span",null,{"children":"→"}]]}]]}]]}]],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":"$@7","staleTime":"$8","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L9",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#111b20"}]]}],["$","div",null,{"hidden":true,"children":["$","$La",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Блог | Идеальный Дом"}],["$","meta","1",{"name":"description","content":"Интересное о стекле, ограждениях и светопрозрачных конструкциях."}],["$","meta","2",{"name":"author","content":"Идеальный Дом"}],["$","link","3",{"rel":"manifest","href":"/manifest.webmanifest"}],"$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f"]}]}]}],null]}],"isPartial":"$@20","staleTime":"$8","varyParams":null},{"rsc":"$L21","isPartial":"$@22","staleTime":"$8","varyParams":"$23"}],"isUpgradeableISRFallback":false,"a":"$@24","rootVaryParams":null,"needsRuntimeRequest":"$@25"}
+26:I[6869,[],"IconMark"]
+27:I[7121,[],""]
+28:I[4581,[],""]
+6:null
+b:["$","meta","4",{"name":"creator","content":"Идеальный Дом"}]
+c:["$","meta","5",{"name":"publisher","content":"Идеальный Дом"}]
+d:["$","meta","6",{"name":"robots","content":"index, follow"}]
+e:["$","meta","7",{"name":"googlebot","content":"index, follow, max-image-preview:large, max-snippet:-1"}]
+f:["$","meta","8",{"name":"category","content":"construction"}]
+10:["$","link","9",{"rel":"canonical","href":"https://perfecthouse.spb.ru/blog"}]
+11:["$","meta","10",{"property":"og:title","content":"Блог"}]
+12:["$","meta","11",{"property":"og:description","content":"Интересное о стекле, ограждениях и светопрозрачных конструкциях."}]
+13:["$","meta","12",{"property":"og:url","content":"https://perfecthouse.spb.ru/blog"}]
+14:["$","meta","13",{"property":"og:site_name","content":"Идеальный Дом"}]
+15:["$","meta","14",{"property":"og:locale","content":"ru_RU"}]
+16:["$","meta","15",{"property":"og:image","content":"https://perfecthouse.spb.ru/images/%D0%9F%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B1%D0%B0%D0%BB%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2/IMG_1862.jpg"}]
+17:["$","meta","16",{"property":"og:image:alt","content":"Стеклянные конструкции"}]
+18:["$","meta","17",{"property":"og:type","content":"website"}]
+19:["$","meta","18",{"name":"twitter:card","content":"summary_large_image"}]
+1a:["$","meta","19",{"name":"twitter:title","content":"Блог"}]
+1b:["$","meta","20",{"name":"twitter:description","content":"Интересное о стекле, ограждениях и светопрозрачных конструкциях."}]
+1c:["$","meta","21",{"name":"twitter:image","content":"https://perfecthouse.spb.ru/images/%D0%9F%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B1%D0%B0%D0%BB%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2/IMG_1862.jpg"}]
+1d:["$","meta","22",{"name":"twitter:image:alt","content":"Стеклянные конструкции"}]
+1e:["$","link","23",{"rel":"icon","href":"/favicon.ico?603d046c9a6fdfbb","type":"image/x-icon","sizes":"16x16"}]
+1f:["$","$L26","24",{}]
+21:["$","$1","c",{"children":[null,["$","$L27",null,{"parallelRouterKey":"children","template":["$","$L28",null,{}]}]]}]
+25:true
+8:300
+8:C
+24:0
+20:"$undefined"
+22:"$undefined"
+7:"$undefined"

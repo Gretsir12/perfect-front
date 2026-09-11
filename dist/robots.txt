@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+Host: https://perfecthouse.spb.ru
+Sitemap: https://perfecthouse.spb.ru/sitemap.xml
